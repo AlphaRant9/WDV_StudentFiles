@@ -16,12 +16,16 @@ body {
     background-size: cover;
     font-family: Verdana, Arial, sans-serif;
     font-weight: bold;
+    height: 100%;                       /* note #1 */
+    margin: 0;                          /* note #2 */
+    overflow: hidden;
 
 }
 
 #wrapper {
 
     width: 65%;
+    height: 100%;
     min-width: 500px;
     max-width: 2200px;
     margin: 3.5em auto;
@@ -30,6 +34,7 @@ body {
     box-shadow: 0px 0px 10px 5px white;
     border-radius: 10px;
     padding: 1em;
+    overflow-y: auto;
 
 }
 
@@ -81,3 +86,9 @@ span {
      padding: 8px;
 
  }
+
+#thumbnail {
+
+    position: relative;
+
+}
