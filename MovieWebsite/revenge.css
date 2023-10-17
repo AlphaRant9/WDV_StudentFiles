@@ -97,12 +97,26 @@ span {
     overflow: auto;
     height: 700px;
     background-image: url("images/thumb.jpg");
-    background-size: auto 700px;
+    background-size: auto 716px;
     background-repeat: no-repeat;
     background-clip: text;
-    padding-left: 40%;
+    padding-left: 45%;
     display: inline-block;
     margin-left: 20px;
     margin-right: 0;
+
+}
+
+footer {
+
+    padding: 0.5em;
+    text-align: center;
+    font-size: 0.65em;
+    font-style: italic;
+    background-color: rgba(0, 0, 0, 30%);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    width: fit-content;
 
 }
