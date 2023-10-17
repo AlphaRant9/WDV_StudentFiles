@@ -11,14 +11,11 @@ body {
 
     color: #FFFF99;
     background-color: black;
-    background-image: url("images/background.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url("images/background.webp");
+    background-repeat: repeat;
+    background-size: auto;
     font-family: Verdana, Arial, sans-serif;
     font-weight: bold;
-    height: 100%;                       /* note #1 */
-    margin: 0;                          /* note #2 */
-    overflow: hidden;
 
 }
 
@@ -31,10 +28,9 @@ body {
     margin: 3.5em auto;
     background-color: #000044;
     background-image: url("images/panel.jpg");
-    box-shadow: 0px 0px 10px 5px white;
+    box-shadow: 0 0 50px 20px white;
     border-radius: 10px;
     padding: 1em;
-    overflow-y: auto;
 
 }
 
@@ -57,6 +53,9 @@ nav {
     width: fit-content;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 15px;
 
 }
 
@@ -90,5 +89,20 @@ span {
 #thumbnail {
 
     position: relative;
+
+}
+
+#thumbnail span {
+
+    overflow: auto;
+    height: 700px;
+    background-image: url("images/thumb.jpg");
+    background-size: auto 700px;
+    background-repeat: no-repeat;
+    background-clip: text;
+    padding-left: 40%;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 0;
 
 }
