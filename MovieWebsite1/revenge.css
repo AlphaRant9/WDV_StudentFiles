@@ -11,8 +11,9 @@ body {
 
     color: #FFFF99;
     background-color: black;
-    background-image: url("images/background.webp");
-    background-size: cover;
+    background-image: url("../MovieWebsite/images/background.webp");
+    background-repeat: repeat;
+    background-size: auto;
     font-family: Verdana, Arial, sans-serif;
     font-weight: bold;
 
@@ -27,7 +28,7 @@ body {
     margin: 3.5em auto;
     background-color: #000044;
     background-image: url("images/panel.jpg");
-    box-shadow: 0px 0px 10px 5px white;
+    box-shadow: 0 0 50px 20px white;
     border-radius: 10px;
     padding: 1em;
 
@@ -45,17 +46,6 @@ h1 {
 
 }
 
-h2 {
-
-    padding: 0.5em;
-    background-color: rgba(0, 0, 0, 30%);
-    width: fit-content;
-    margin-left: 0;
-    margin-right: auto;
-    border-radius: 15px;
-
-}
-
 nav {
 
     text-align: center;
@@ -63,8 +53,9 @@ nav {
     width: fit-content;
     margin-left: auto;
     margin-right: auto;
-    padding: 0 8px;
-    border-radius: 8px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 15px;
 
 }
 
@@ -97,12 +88,21 @@ span {
 
 #thumbnail {
 
+    position: relative;
+
 }
 
 #thumbnail span {
-    position: absolute;
-    min-height: 300px;
-    max-height: 700px;
-    margin: 0 0 auto 15%;
+
     overflow: auto;
+    height: 700px;
+    background-image: url("images/thumb.jpg");
+    background-size: auto 700px;
+    background-repeat: no-repeat;
+    background-clip: text;
+    padding-left: 40%;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 0;
+
 }
