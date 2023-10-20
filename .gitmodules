@@ -1,0 +1,6 @@
+[submodule "MovieWebsite"]
+	path = MovieWebsite
+	url = https://github.com/AlphaRant9/MovieWebsite
+[submodule "CaseStudyProject"]
+	path = CaseStudyProject
+	url = https://github.com/AlphaRant9/CaseStudyProject
