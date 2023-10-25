@@ -52,7 +52,7 @@
         }
 
         main {
-            display: block; /* for Internet Explorer  */
+            display: block; /* for Internet Explorer */
             margin-left: 155px;
             padding: 20px;
             background-color: #ffffff;
@@ -73,9 +73,36 @@
         }
 
         h2 {
-            font-size: 200%;
             color: #869dc7;
             font-family: arial, sans-serif;
+            font-size: 200%;
+        }
+
+        span {
+            padding-left: 20px;
+            font-size: .80em;
+            font-style: italic;
+            color: #00005D;
+        }
+
+        article header {
+            background-color: #FFFFFF;
+            background-image: none;
+            font-size: 90%;
+            padding-left: 0;
+            height: auto;
+        }
+
+        aside {
+            float: right;
+            width: 200px;
+            background-color: #CCCCCC;
+            padding: 20px;
+            margin-right: 40px;
+            font-size: 80%;
+            box-shadow: 5px 5px 5px #333333;
+            position: relative;
+            top: -40px;
         }
 
         #floatright {
@@ -91,31 +118,8 @@
             background-color: #869dc7;
         }
         
-        span {
-            padding-left: 20px;
-            font-size: 0.8em;
-            font-style: italic;
-            color: #00005D;
-        }
-        
-        article header {
-            background-color: white;
-            background-image: none;
-            font-size: 90%;
-            padding-left: 0;
-            height: auto;
-        }
-        
-        aside {
-            float: right;
-            width: 200px;
-            background-color: lightgrey;
-            padding: 20px;
-            margin-right: 40px;
-            font-size: 80%;
-            box-shadow: 5px 5px 5px black;
-            position: relative;
-            top: -40px;
+        header, main, nav, footer, section, article, figure, figcaption, aside {
+            display: block;
         }
     </style>
 </head>
@@ -123,7 +127,7 @@
 <div id="wrapper">
     <header>
         <h1>Lighthouse Island Bistro</h1>
-        <span>The best coffee on the coast</span>
+        <span>the best coffee on the coast</span>
     </header>
     <nav>
         <ul>
@@ -136,19 +140,18 @@
     <main>
         <section>
             <h2>Bistro Blog</h2>
-            <aside>Natch for the March Madness Nrap next month!</aside>
+            <aside>Watch for the March Madness Wrap next month!</aside>
             <article>
                 <header><h3>Valentine Wrap</h3></header>
                 <time datetime="2018-02-01">February 1, 2018</time>
-                <p>The February special sandwich is the Valentine Wrap
-                    &mdash; heart healthy organic chicken with roasted red
-                    peppers on a whole wheat wrap.</p>
+                <p>February special sandwich is the Valentine Wrap &mdash; heart healthy organic chicken with roasted
+                    red peppers on a whole wheat wrap.</p>
             </article>
             <article>
                 <header><h3>New Coffee of the Day Promotion</h3></header>
                 <time datetime="2018-01-12">January 12, 2018</time>
-                <p>Enjoy the best coffee on the coast in the comfort of your home. We will feature a different flavor of our gourmet,
-                    locally roasted coffee each day with free bistro tastings
+                <p>Enjoy the best coffee on the coast in the comfort of your home. We will feature a different flavor of
+                    our gourmet, locally roasted coffee each day with free bistro tastings
                     and a discount on one-pound bags.</p>
             </article>
         </section>
@@ -158,5 +161,3 @@
 </div>
 </body>
 </html>
-
-
