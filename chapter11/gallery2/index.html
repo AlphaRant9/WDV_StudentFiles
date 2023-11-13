@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Image Gallery</title>
+    <meta charset="utf-8">
+	<style>
+		body {
+			background-color: #333;
+			color: #EAEAEA;
+		}
+		
+		#gallery {
+			position: relative;
+		}
+		
+		#gallery ul {
+			width: 300px;
+			list-style-type: none;
+		}
+		
+		#gallery li {
+			display: inline-block;
+			float: left;
+			padding: 10px;
+		}
+		
+		#gallery img {
+			border: none;
+		}
+		
+		#gallery a {
+			text-decoration: none;
+            color: #EAEAEA;
+            font-style: italic;
+		}
+        
+        #gallery span {
+            position: absolute;
+            left: -1000px;
+            opacity: 0;
+            transition: opacity 3s ease-in-out;
+        }
+        
+        #gallery a:hover span {
+            position: absolute;
+            top: 16px;
+            left: 320px;
+            text-align: center;
+            opacity: 1;
+        }
+		
+		figure {
+			position: absolute;
+			left: 280px;
+			text-align: center;
+			opacity: .25;
+		}
+	</style>
+</head>
+<body>
+<h1>Image Gallery</h1>
+<div id="gallery">
+	
+	<figure>
+		<img src="photo1.jpg">
+	</figure>
+	
+    <ul>
+        <li><a href="photo1.jpg"><img alt="Golden Gate Bridge" height="75" src="photo1thumb.jpg"
+                                      width="100">
+            <span><img alt="Golden Gate Bridge" height="300" src="photo1.jpg"
+                       width="400"><br>Golden Gate Bridge</span></a></li>
+        <li><a href="photo2.jpg"><img alt="Stony Shore" height="75" src="photo2thumb.jpg"
+                                      width="100">
+            <span><img alt="Stony Shore" height="300" src="photo2.jpg"
+                       width="400"><br>Stony Shore</span></a></li>
+        <li><a href="photo3.jpg"><img alt="Wooded Bay" height="75" src="photo3thumb.jpg"
+                                      width="100">
+            <span><img alt="Wooded Bay" height="300" src="photo3.jpg"
+                       width="400"><br>Wooded Bay</span></a></li>
+        <li><a href="photo4.jpg"><img alt="Close beach" height="75" src="photo4thumb.jpg"
+                                      width="100">
+            <span><img alt="Close beach" height="300" src="photo4.jpg"
+                       width="400"><br>Close beach</span></a></li>
+        <li><a href="photo5.jpg"><img alt="Cliffed shoreline" height="75" src="photo5thumb.jpg"
+                                      width="100">
+            <span><img alt="Cliffed shoreline" height="300" src="photo5.jpg"
+                       width="400"><br>Cliffed shoreline</span></a></li>
+        <li><a href="photo6.jpg"><img alt="Desert Dawn" height="75" src="photo6thumb.jpg"
+                                      width="100">
+            <span><img alt="Desert Dawn" height="300" src="photo6.jpg"
+                       width="400"><br>Desert Dawn</span></a></li>
+    </ul>
+</div>
+</body>
+</html>
