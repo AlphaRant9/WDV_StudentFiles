@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Practice</title>
+    <script>
+        function promptQuantity() {
+            var quantity;
+            quantity = prompt("Type a quantity greater than 0");
+            if (quantity <= 0) {
+                document.write("<p>Quantity is not greater than 0.<p>");
+                document.write("<p>Please refresh the webpage.<p>");
+            } else {
+                document.write("<p>Quantity is greater than 0.</p>")
+            }
+        }
+    </script>
+</head>
+<body>
+<h1>Using JavaScript</h1>
+<input type="button" value="Click to enter quantity" onclick="promptQuantity()">
+</body>
+</html>
