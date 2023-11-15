@@ -1,0 +1,16 @@
+body {
+    background-color: black;
+    color: #FFFFFF;
+    font-family: Arial, Arial helvetica, sans-serif;
+}
+a {
+    background-color: #CCCCCC;
+}
+h1 {
+    font-family: "Times New Roman", serif;
+    color: #CCCCCC;
+}
+.favorite {
+    font-style: italic;
+    color: red;
+}

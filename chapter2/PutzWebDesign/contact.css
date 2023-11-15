@@ -1,0 +1,60 @@
+body {
+    background-color: pink;
+}
+
+h1 {
+    color: darkmagenta;
+    margin-left: 20px;
+    background-color: deeppink;
+    border-radius: 50px;
+    /*border-block-end: solid;*/
+}
+
+p {
+
+    /*text-indent: 0.5in;*/
+
+}
+
+textarea {
+
+    background: transparent;
+    width: 500px;
+    height: 200px;
+    text-align: left;
+    align-content: start;
+
+}
+
+button {
+
+    background-color: fuchsia;
+    border-radius: 5px;
+
+}
+
+.content {
+
+    text-indent: 0.5in;
+
+}
+
+footer {
+
+    font-style: italic;
+    text-indent: 0in;
+
+}
+
+#information {
+
+    background-color: deeppink;
+    border-radius: 2px;
+
+}
+
+input {
+
+    background-color: transparent;
+
+}

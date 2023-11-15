@@ -1,0 +1,31 @@
+body {
+    background-color: lightgreen;
+}
+
+h1 {
+    color: darkgreen;
+    margin-left: 20px;
+    background-color: lightseagreen;
+    border-radius: 50px;
+    /*border-block-end: solid;*/
+}
+
+p {
+
+    text-indent: 0.5in;
+
+}
+
+footer {
+
+    font-style: italic;
+    text-indent: 0in;
+
+}
+
+#information {
+
+    background-color: lightseagreen;
+    border-radius: 2px;
+
+}

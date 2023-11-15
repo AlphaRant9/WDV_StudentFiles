@@ -1,0 +1,13 @@
+#notice {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+footer {
+    background-color: lightblue;
+    font-family: Arial, serif;
+    padding: 10px;
+    color: darkblue;
+    border: darkblue dashed 5px;
+}

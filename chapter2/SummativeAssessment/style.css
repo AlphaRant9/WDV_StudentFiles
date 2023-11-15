@@ -1,0 +1,28 @@
+html {
+
+    background-color: rgb(128, 128, 128);
+
+}
+
+h1 {
+
+    color: white;
+
+}
+
+a {
+
+    color: maroon;
+
+}
+
+nav {
+
+    background-color: orange;
+
+}
+
+img {
+    height: 50px;
+    width: auto;
+}

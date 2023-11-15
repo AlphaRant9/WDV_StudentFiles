@@ -1,0 +1,31 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: navy;
+    margin-left: 20px;
+    background-color: #7fffd4;
+    border-radius: 50px;
+    /*border-block-end: solid;*/
+}
+
+p {
+
+    text-indent: 0.5in;
+
+}
+
+footer {
+
+    font-style: italic;
+    text-indent: 0;
+
+}
+
+#information {
+
+    background-color: aquamarine;
+    border-radius: 2px;
+
+}
