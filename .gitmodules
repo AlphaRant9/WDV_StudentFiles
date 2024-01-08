@@ -1,6 +1,6 @@
-[submodule "MovieWebsite"]
-	path = MovieWebsite
-	url = https://github.com/AlphaRant9/MovieWebsite
+[submodule "PutzRevengeOfTheSith"]
+	path = PutzRevengeOfTheSith
+	url = https://github.com/AlphaRant9/PutzRevengeOfTheSith
 [submodule "CaseStudyProject"]
 	path = CaseStudyProject
 	url = https://github.com/AlphaRant9/CaseStudyProject
